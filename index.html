@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <title>APP/CLIMA</title>
+    <link rel="icon" href="img/nubeIcon.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="/js/index.js" defer></script>
+   
+
+</head>
+<body>
+
+   
+
+    <h2><span>APP</span>/Clima</h2>
+    <section id="contenedor">
+             
+        <div>
+            <div class="buscador">
+                <input id="buscar" type="text" placeholder="Buenos Aires...">
+                <button id="buscarbtn"><i class='bx bx-search-alt'></i></button>
+            </div>
+        </div>
+
+        
+        <img id="iconoAnimado" src="" alt="">
+        <h3 id="temperatura-valor"></h3>
+        <label id="temperatura-descripcion"></label>
+        <h3 id="ubicacion"></h3>
+        
+        <div class="contenedorClim">
+            <div class="Clim">
+                <label>Temp Max</label>
+                <p id="temperatura-maxima"></p>
+            </div>
+
+            <div class="Clim">
+                <label>Temp Min</label>
+                <p id="temperatura-minima"></p>
+            </div>
+
+            <div class="Clim">
+                <label>Viento</label>
+                <p id="viento-velocidad"></p>
+            </div>
+
+            <div class="Clim">
+                <label>Humedad</label>
+                <p id="humedad"></p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="contenedorDeColores">
+            <div class="color1"></div>
+            <div class="color2"></div>
+            <div class="color3"></div>
+        </div>
+        
+        <div class="derechos">
+            © 2023 Created by - Alexis Acevedo.
+        </div>
+    </footer>
+
+    <script src="./js/buscarCuidad.js"></script>
+ </body>
+</html>
